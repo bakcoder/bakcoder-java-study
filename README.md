@@ -1,1 +1,3 @@
-# bakcoder-java-study
+# Java를 공부하며 기록하는 공간입니다.
+
+
