@@ -27,8 +27,11 @@ public class Order {
 
     public static void main(String[] args) {
         Order order = new Order();
+        order.orderStatus = OrderStatus.DELIVERED;
+        System.out.println(OrderStatus.DELIVERED);
         if(order.orderStatus == OrderStatus.DELIVERED) {
             System.out.println("delivered");
+            System.out.println(order.orderStatus);
         }
     }
 }
